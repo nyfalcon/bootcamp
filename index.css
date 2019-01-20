@@ -1,4 +1,17 @@
 /* ----------------------HOMEWORK INDEX CSS LINK--------------------- */
+a:link  {
+    color:black;
+}
+a:visited { 
+    color: cadetblue; 
+}
+a:hover { 
+    color: goldenrod; 
+}
+
+a:focus { 
+    background-color: orange;
+}
 
 body    {   
     margin: 25px;

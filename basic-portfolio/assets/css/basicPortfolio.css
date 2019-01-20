@@ -1,0 +1,169 @@
+html{
+    width: 100%;
+   
+}
+
+body{
+    
+    font-family: Arial, 'Helvetica Neue',Helvetica, sans-serif;
+    color: #cccccc;
+    font-size: 18px;
+    width:100%;
+}
+
+    #header{
+        margin: auto;
+        background-color: #ffffff;
+        border: #cccccc;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        height: 100px;
+        border-bottom-color: cadetblue;
+        width: 960px;
+        
+       }
+
+        #name{
+            
+            float: left;
+            height: 75px;
+            width: 240px;
+            background-color:#4aaaa5; 
+            color: #ffffff;
+            padding-left: 10px;
+            border: 10px;
+            display: block;
+        }
+
+        #nav{
+            margin-top:25px;
+            float: right;
+            color:#666666;
+        }
+
+            #nav1{
+                margin:5px;
+                border:auto;
+                padding:auto;
+                float: right;
+            }
+
+            #nav2{
+                margin:5px;
+                border:auto;
+                padding:auto;
+                float: right;
+            }
+
+            #nav3{
+                margin:5px;
+                border:auto;
+                padding:auto;
+                float: right;
+            }
+    .background{
+        background-image: url("../images/qbkls.png")
+      }
+    #spacer{
+        height: 40px;
+    }
+    
+    #Main{
+        margin-top:25px;
+        margin:auto;
+        padding-left: 25px;
+        padding-right:25px;
+        padding-bottom: 25px;
+        padding-top:    25px;
+        background-color: #ffffff;
+        width: 960px;
+        color: #666666;
+        line-height: 30px;
+        display: block;
+        border-color: #dddddd;
+
+    }
+        #about{
+           
+            height: 65px;
+            border-bottom:2px solid#4aaaa5;
+            
+
+       }
+        #aboutMe{
+            margin:auto;
+            border:auto;
+            padding:auto;
+            align-self: center;
+            color:#4aaaa5; 
+        
+        }
+            #profilePic{
+                margin-right:15px;
+                margin-bottom: 5px;
+                padding:auto;
+                float: left;
+                width: 225px;
+                height: 175px;
+            }
+          
+footer{
+    margin-top: 75px;
+    padding-bottom: 5px;
+    border-top:8px solid#4aaaa5;
+    padding:auto;
+    background-color: #666666;
+    height: 40px;
+    text-align: center;
+    color: #cccccc;
+    width: 100%;
+    
+}
+#contact{
+    height: 60px;
+    border-bottom:2px solid #dddddd;
+    margin-bottom: 25px;
+    color:#4aaaa5;
+}
+input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+
+  #message{
+      height:200px;
+  }
+
+  #portfolio{
+    height: 60px;
+    border-bottom:2px solid #dddddd;
+    margin-bottom: 25px;
+    color:#4aaaa5;
+}
+
+#portfolioPic{
+    margin:25px;
+    height: 300px;
+    width: 300px;
+  
+}
+.container {
+    
+    text-align: center;
+    color: white;
+   
+  }

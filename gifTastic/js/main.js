@@ -4,9 +4,12 @@ var topics = ["pasta","puppies","plants","push","panic","plenty"];
 
 for (i in topics){
         $('.buttonOptions').append("<button value='"+topics[i]+"'>"+topics[i]+"</button>");
-        $('.buttonOptions').append("<button onclick='"+getData+"'>"+topics[i]+"</button>");
+       // $('.buttonOptions').append("<button onclick='"+getGiphy()+"'>"+topics[i]+"</button>");
         
     }
+
+// Add button value to search query
+
 
 
 
@@ -32,3 +35,4 @@ for (i in jiffs){
 });
 
 }
+

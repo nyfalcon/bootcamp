@@ -1,18 +1,20 @@
 //javascript, jQuery
+// Add button value to search 
+
+ 
 var topics = ["pasta","puppies","plants","push","panic","plenty"];
-    console.log(topics);
+
 
 for (i in topics){
-        $('.buttonOptions').append("<button value='"+topics[i]+"'>"+topics[i]+"</button>");
+        $('.buttonOptions').append("<button id='"+topics[i]+"' []> "+topics[i]+" </button>" );
        // $('.buttonOptions').append("<button onclick='"+getGiphy()+"'>"+topics[i]+"</button>");
-        
-    }
-
-// Add button value to search query
+       console.log(topics[i]);
+};
 
 
-
-
+function getGiphy(){
+    console.log('hello');
+};
     // -------------------Search for Giphy using test entry-------------------------------------
 
 function getData() {

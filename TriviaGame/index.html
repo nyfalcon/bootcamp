@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/d3js/5.7.0/d3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+    crossorigin="anonymous">
+
+
+    <title>Trivia Game</title>
+</head>
+
+<body>
+    <div class = "container">
+        <br>
+    
+    <!-- Jumbotron-->
+    <div class = "jumbotron">
+    <h1 class="text-center">Test Your Culinary Trivia Knowledge</h1>
+    </div>
+ 
+    <img id="headPic" src="assets/images/20379463.jpg">
+    <button id="start">Start</button>
+
+    <div id="main">
+        <h2>Time Remaing: <span id="countDown">0</span> Seconds
+            </h2>
+        <div id="results">
+            <p id="here">Here are your results:
+                <h3># Correct Answers: <span id="correct">0</span></h3>
+                <h3># Incorrect Answers: <span id="incorrect">0</span></h3>
+                <h3># Incomplete: <span id="incomplete">0</span></h3>
+                </p>
+        </div>
+    </div>
+<div>
+    <form id="game">
+        <div class = "question">
+            <h3>What is the state dessert of Arizona?</h3>
+              <div class="row">
+                <input type="radio" class="btn-radio" name="q1" id="q1" value="Lane Cake"> Lane Cake
+                <input type="radio" class="btn-radio" name="q1" id="q1" value="Layer Cake"> Layer Cake
+                <input type="radio" class="btn-radio" name="q1" id="q1" value="Yuka Pie"> Yuka Pie
+                <input type="radio" class="btn-radio" name="q1" id="q1" value="Cactus Pear Sorbet"> Cactus Pear Sorbet
+                </div>
+            </div>
+
+        <div class = "question">
+            <h3>Name the state which is the birthplace of the Cheeseburger?</h3>
+            <div class="row">
+                <input type="radio" class="btn-radio" name="q2" id="q2" value="NJ"> New Jersey
+                <input type="radio" class="btn-radio" name="q2" id="q2" value="TX"> Texas
+                <input type="radio" class="btn-radio" name="q2" id="q2" value="WI"> Wisconsin
+                <input type="radio" class="btn-radio" name="q2" id="q2" value="CO"> Colorado
+                </div>
+            </div>
+        
+        <div class = "question">
+            <h3>What is an Indian dish, but is the national dish of England?</h3>
+            <div class="row">
+                <input type="radio" class="btn-radio" name="q3" id="q3" value="Chicken Tikka Masala"> Chicken Tikka Masala
+                <input type="radio" class="btn-radio" name="q3" id="q3" value="Biryani"> Biryani
+                <input type="radio" class="btn-radio" name="q3" id="q3" value="Tandoori Chicken"> Tandoori Chicken
+                <input type="radio" class="btn-radio" name="q3" id="q3" value="Panipuri"> Panipuri
+                </div>
+            </div>
+                
+        <div class = "question">
+            <h3>Which soft-drink originated in North-Carolina?</h3>
+            <div class="row">
+                <input type="radio" class="btn-radio" name="q4" id="q4" value="Sprite"> Sprite
+                <input type="radio" class="btn-radio" name="q4" id="q4" value="Dr Pepper"> Dr Pepper
+                <input type="radio" class="btn-radio" name="q4" id="q4" value="Pepsi-Cola"> Pepsi-Cola
+                <input type="radio" class="btn-radio" name="q4" id="q4" value="Root Beer"> Root Beer
+                </div>
+            </div>
+
+        <div class = "question">
+            <h3>What is the state vegetable of Oklahoma?</h3>
+            <div class="row"> 
+                <input type="radio" class="btn-radio" name="q5" id="q5" value="Vidalia Onion"> Vidalia Onion
+                <input type="radio" class="btn-radio" name="q5" id="q5" value="Watermelon"> Watermelon
+                <input type="radio" class="btn-radio" name="q5" id="q5" value="Asparagus"> Asparagus
+                <input type="radio" class="btn-radio" name="q5" id="q5" value="Turnips"> Turnips
+                </div>
+            </div>
+
+        <button id="end">Submit</button>
+    </form>
+   
+
+
+
+<script type ="text/javascript" src="assets/javascript/app.js">
+
+           
+</script>
+
+</body>
+</html>
